@@ -6,7 +6,7 @@ const user = {
 };
 
 const { name, age } = user;
-
+//Object = { } aur keys ke hisaab se values lete hain.
 console.log(name);
 console.log(age);
 
@@ -18,3 +18,6 @@ const [a, b, c] = numbers;
 console.log(a);
 console.log(b);
 console.log(c);
+
+//Array = [ ] aur position ke hisaab se values lete hain
+//dono ka maqsad code ko short er readable bnana hai

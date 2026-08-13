@@ -17,5 +17,12 @@ const updatedUser = {
     ...user,
     age: 21
 };
+// Purana object safe rehta hai, hum naya updated object bana lete hain.
 
 console.log(updatedUser);
+
+//Array mein: purani values + nayi values ek naye array mein.
+
+//Object mein: purani properties + nayi/updated properties ek naye object mein.
+
+//Importante: Original data ko modify nahi karta, copy banata hai (immutability).
