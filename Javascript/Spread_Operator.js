@@ -26,3 +26,11 @@ console.log(updatedUser);
 //Object mein: purani properties + nayi/updated properties ek naye object mein.
 
 //Importante: Original data ko modify nahi karta, copy banata hai (immutability).
+
+const arr1 = [1, 2];
+const arr2 = [3, 4];
+
+const result = [...arr1, ...arr2];
+
+console.log(result);
+// [1, 2, 3, 4]

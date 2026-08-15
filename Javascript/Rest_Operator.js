@@ -26,3 +26,8 @@ calculate(10, 20, 30, 40, 50);
 //Array/object ke andar = Spread.
 
 //Function parameters mein = Rest.
+
+function sum(...numbers) {
+    return numbers.reduce((total, n) => total + n, 0);
+}
+console.log(sum(1, 2, 3, 4));

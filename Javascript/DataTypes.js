@@ -11,7 +11,7 @@ let big=BigInt(1234567890123456789012345678901234567890); //BigInt
 
 
 
-//Non primitive Data Types (Object,Array,Function)
+//Non primitive Data Types/reference types (Object,Array,Function)
 
 //Object 
 let person = {
