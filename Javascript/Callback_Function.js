@@ -11,3 +11,6 @@ function sayGoodbye() {
 }   
 
 greet("Alice", sayGoodbye);
+
+
+//Callback = Ek function jo baad mein chalega, jab main function apna kaam kar lega.
