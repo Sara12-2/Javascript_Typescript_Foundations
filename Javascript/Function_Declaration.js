@@ -5,8 +5,7 @@ function greet() {
 
 greet();
 
-//function decalaration hoisted hoti h
-
+//function decalaration hoisted hoti h (declaration s phly isy call kr skhty hain)
 
 greet();
 
