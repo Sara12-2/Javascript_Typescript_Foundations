@@ -15,3 +15,6 @@ console.log(false + 1); //1
 
 //Main Points
 //Type coercion is the automatic or explicit conversion of one data type into another.
+
+console.log(1 + "2" + 3);
+//123 left to right evaluation hoti h 

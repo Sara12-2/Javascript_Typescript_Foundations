@@ -34,3 +34,16 @@ const result = [...arr1, ...arr2];
 
 console.log(result);
 // [1, 2, 3, 4]
+
+
+const user = {
+    name: "Sara",
+    age: 20
+};
+
+const updatedUser = {
+    ...user,
+    age: 21
+}; // Purana object safe rehta hai, hum naya updated object bana lete hain.
+
+console.log(updatedUser);
